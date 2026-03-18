@@ -1,0 +1,18 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE workouts SET date = $1, muscle_group = $2, notes = $3 WHERE id = $4 AND user_id = $5",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Text",
+        "Text",
+        "Int8",
+        "Int8"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "8dc9c5f4b3e63c31b1288ad59c0613aa0b69a912fe13eea0df6279138307ef81"
+}

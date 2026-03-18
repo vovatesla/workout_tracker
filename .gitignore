@@ -1,0 +1,34 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+*.pdb
+
+# Cargo lock for libraries (keep for binaries)
+# Cargo.lock  # не игнорируем — это бинарный проект
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Archives / временные файлы
+*.tar.gz
+*.zip
+
+# Claude-specific (personal dev tool config)
+.claude/
+CLAUDE.md
